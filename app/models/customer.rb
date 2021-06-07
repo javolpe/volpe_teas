@@ -6,6 +6,6 @@ class Customer < ApplicationRecord
   validates :last_name, presence: { require: true }
   validates :street, presence: { require: true }
   validates :city, presence: { require: true }
-  validates :state, presence: { require: true }\
+  validates :state, presence: { require: true }
   validates :zip, presence: { require: true }
 end
