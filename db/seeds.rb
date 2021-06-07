@@ -26,5 +26,5 @@ package6 = Pacakge.create!(subscription_id: relaxing_teas.id, tea_id: jasmine.id
 andrew = Customer.create!(email: "andrew@gmail.com", first_name: "Andrew", last_name: "Killian", street: "123 Main St", city: "Denver", state: "CO", zip: "80218")
 joey = Customer.create!(email: "joey@gmail.com", first_name: "Joey", last_name: "Palmetto", street: "456 Second St", city: "Denver", state: "CO", zip: "80210")
 
-custsub1 = CustomerSubscriptions.create!(customer_id: andrew.id, subscription_id: high_caffeine.id)
-custsub2 = CustomerSubscriptions.create!(customer_id: joey.id, subscription_id: relaxing_teas.id)
+custsub1 = CustomerSubscription.create!(customer_id: andrew.id, subscription_id: high_caffeine.id)
+custsub2 = CustomerSubscription.create!(customer_id: joey.id, subscription_id: relaxing_teas.id)

@@ -18,7 +18,6 @@ ActiveRecord::Schema.define(version: 2021_06_07_213215) do
   create_table "customer_subscriptions", force: :cascade do |t|
     t.bigint "customer_id"
     t.bigint "subscription_id"
-    t.date "start_date"
     t.integer "status", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
