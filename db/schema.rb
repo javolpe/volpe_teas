@@ -38,14 +38,14 @@ ActiveRecord::Schema.define(version: 2021_06_07_213215) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "pacakges", force: :cascade do |t|
+  create_table "packages", force: :cascade do |t|
     t.bigint "subscription_id"
     t.bigint "tea_id"
     t.integer "bags"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["subscription_id"], name: "index_pacakges_on_subscription_id"
-    t.index ["tea_id"], name: "index_pacakges_on_tea_id"
+    t.index ["subscription_id"], name: "index_packages_on_subscription_id"
+    t.index ["tea_id"], name: "index_packages_on_tea_id"
   end
 
   create_table "subscriptions", force: :cascade do |t|
@@ -68,6 +68,6 @@ ActiveRecord::Schema.define(version: 2021_06_07_213215) do
 
   add_foreign_key "customer_subscriptions", "customers"
   add_foreign_key "customer_subscriptions", "subscriptions"
-  add_foreign_key "pacakges", "subscriptions"
-  add_foreign_key "pacakges", "teas"
+  add_foreign_key "packages", "subscriptions"
+  add_foreign_key "packages", "teas"
 end

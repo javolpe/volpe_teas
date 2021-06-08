@@ -16,12 +16,12 @@ mate = Tea.create!(description: "Boosts energy and mental focus", temperature: "
 high_caffeine = Subscription.create!(price: "20", title: "High Caffeine Teas", status: 0, frequency: "Monthly")
 relaxing_teas = Subscription.create!(price: "25", title: "Relaxing Vibes Teas", status: 0, frequency: "Monthly")
 
-package1 = Pacakge.create!(subscription_id: high_caffeine.id, tea_id: black.id, bags: 10)
-package2 = Pacakge.create!(subscription_id: high_caffeine.id, tea_id: mate.id, bags: 10)
-package3 = Pacakge.create!(subscription_id: relaxing_teas.id, tea_id: green.id, bags: 7)
-package4 = Pacakge.create!(subscription_id: relaxing_teas.id, tea_id: chamomile.id, bags: 7)
-package5 = Pacakge.create!(subscription_id: relaxing_teas.id, tea_id: matcha.id, bags: 7)
-package6 = Pacakge.create!(subscription_id: relaxing_teas.id, tea_id: jasmine.id, bags: 7)
+package1 = Package.create!(subscription_id: high_caffeine.id, tea_id: black.id, bags: 10)
+package2 = Package.create!(subscription_id: high_caffeine.id, tea_id: mate.id, bags: 10)
+package3 = Package.create!(subscription_id: relaxing_teas.id, tea_id: green.id, bags: 7)
+package4 = Package.create!(subscription_id: relaxing_teas.id, tea_id: chamomile.id, bags: 7)
+package5 = Package.create!(subscription_id: relaxing_teas.id, tea_id: matcha.id, bags: 7)
+package6 = Package.create!(subscription_id: relaxing_teas.id, tea_id: jasmine.id, bags: 7)
 
 andrew = Customer.create!(email: "andrew@gmail.com", first_name: "Andrew", last_name: "Killian", street: "123 Main St", city: "Denver", state: "CO", zip: "80218")
 joey = Customer.create!(email: "joey@gmail.com", first_name: "Joey", last_name: "Palmetto", street: "456 Second St", city: "Denver", state: "CO", zip: "80210")
