@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :pacakge do
+  factory :package do
     subscription { nil }
     tea { nil }
     bags { 1 }
