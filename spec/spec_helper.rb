@@ -114,6 +114,7 @@ RSpec.configure do |config|
 
     @andrew = Customer.create!(email: "andrew@gmail.com", first_name: "Andrew", last_name: "Killian", street: "123 Main St", city: "Denver", state: "CO", zip: "80218")
     @joey = Customer.create!(email: "joey@gmail.com", first_name: "Joey", last_name: "Palmetto", street: "456 Second St", city: "Denver", state: "CO", zip: "80210")
+    @khoa = Customer.create!(email: "khoa@gmail.com", first_name: "Khoa", last_name: "Leewood", street: "789 Third St", city: "Denver", state: "CO", zip: "80211")
 
     @custsub1 = CustomerSubscription.create!(customer_id: @andrew.id, subscription_id: @high_caffeine.id)
     @custsub2 = CustomerSubscription.create!(customer_id: @joey.id, subscription_id: @relaxing_teas.id)
