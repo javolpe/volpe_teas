@@ -12,7 +12,7 @@ The API endpoints allow customers to create a subsription for themselves to rece
 
 #### Built With
 * [Ruby on Rails](https://rubyonrails.org)
-* [HTML](https://html.com)
+
 
 This project was tested with:
 * RSpec version 3.10
