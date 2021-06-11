@@ -80,8 +80,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ### Database Schema
-[volpe_teas](https://user-images.githubusercontent.com/62768837/121737281-e2ece780-cab5-11eb-974f-29b6e0e15225.png)
-
 
 [volpe_teas](https://ibb.co/DKWP0YD)
 
