@@ -24,8 +24,6 @@ This project was tested with:
   - [Installing](#installing)
 - [Endpoints](#endpoints)  
 - [Database Schema](#database-schema)  
-- [Application Features](#application-features)
-  - [Feature 1](#feature-1)
 - [Testing](#testing)
 
 
