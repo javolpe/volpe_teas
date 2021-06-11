@@ -221,7 +221,21 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
           1,
           null,
           1,
@@ -248,7 +262,6 @@
           1,
           1,
           1,
-          1,
           null,
           0,
           null,
@@ -261,18 +274,20 @@
           null,
           1,
           1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
           2,
           null,
-          1,
           null,
           null,
-          null,
           1,
           1,
-          1,
-          null,
-          1,
-          1,
+          0,
           null,
           null
         ]
@@ -294,6 +309,23 @@
           null
         ]
       },
+      "/Users/jvolpe/Desktop/Turing/4mod/projects/volpe_teas/app/facade/customer_subscription_facade.rb": {
+        "lines": [
+          1,
+          1,
+          5,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/jvolpe/Desktop/Turing/4mod/projects/volpe_teas/app/poros/cust_subscription.rb": {
         "lines": [
           1,
@@ -307,14 +339,14 @@
           null,
           null,
           1,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
           null,
           null
         ]
@@ -328,6 +360,6 @@
         ]
       }
     },
-    "timestamp": 1623347068
+    "timestamp": 1623430413
   }
 }
